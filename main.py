@@ -14,9 +14,9 @@ import urllib.parse
 from bs4 import BeautifulSoup
 from collections import defaultdict
 from datetime import datetime, timedelta
-api_id = '1747534' # Keep this as it is 
-api_hash = '5a2684512006853f2e48aca9652d83ea' # same heree
-client_token = '6742056721:AAFp9ErNPxtGpQ7w-wsPYE8Xc6Hp39NUqz0'
+api_id = '10337096' # Keep this as it is 
+api_hash = '44eb4f665fe6c15824c5b469d1111424' # same heree
+client_token = '7058591192:AAHUc0wnCfYx2ciYHD1R38B3kuVaIvDDmAc'
 
 admin_ids = [1756796106, 6774116743, 5233465860]  # Example admin IDs
 
@@ -33,7 +33,7 @@ credits = {}
 global credit
 credit = {}
 generated_codes = []
-vip = [6774116743,5233465860,1756796106]
+vip = [6774116743,5233465860,7196525260]
 def normalize_url(url):
     parsed_url = urllib.parse.urlparse(url)
     normalized_url = f"{parsed_url.scheme}://{parsed_url.netloc}"
