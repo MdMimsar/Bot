@@ -1,19 +1,4 @@
-#from telethon import TelegramClient, events, types, Button
-from telethon.tl import functions
-from telethon.tl.types import Channel, Chat, User
-import webbrowser
-webbrowser.open('')
-import time
-import random
-import re
-import os
-import requests
-import json
-import string
-import urllib.parse
-from bs4 import BeautifulSoup
-from collections import defaultdict
-from datetime import datetime, timedelta
+
 api_id = '10337096' # Keep this as it is 
 api_hash = '44eb4f665fe6c15824c5b469d1111424' # same heree
 client_token = '7058591192:AAHUc0wnCfYx2ciYHD1R38B3kuVaIvDDmAc'
